@@ -1,6 +1,19 @@
 ### Two random operation will be performed on images such as flipping and changing the brightness of images in first function 
 ### Selecting the training batches is also random
 ### Blurring is performed in second part by filter size of 5x5
+'''
+I = image 
+B = Brighness 
+Function Random_Process(I):
+  B = 0.8 + 0.4 * random() # return the random number in [0,1)
+  I = I * B
+  Clipp I into range(0,255)
+  If random() > 0.5:
+    Flipp in left to right direction
+  return I 
+
+'''
+
 
 import numpy as np
 import imageio as iio
