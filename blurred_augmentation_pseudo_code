@@ -1,9 +1,1 @@
-I = image 
-B = Brighness 
-Function Random_Process(I):
-  B = 0.8 + 0.4 * random() # return the random number in [0,1)
-  I = I * B
-  Clipp I into range(0,255)
-  If random() > 0.5:
-    Flipp in left to right direction
-  return I 
+
