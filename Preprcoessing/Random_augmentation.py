@@ -1,7 +1,9 @@
+import random
 import numpy as np
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
+from tensorflow.keras.preprocessing.image import apply_affine_transform
 
-class CustomImageAugmentor:
+class RandomImageAugmentor:
     def __init__(self):
         # Initialize the ImageDataGenerator with the given configurations
         self.datagen = ImageDataGenerator(
