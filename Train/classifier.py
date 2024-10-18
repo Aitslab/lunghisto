@@ -12,8 +12,9 @@ sys.path.append(os.path.abspath("../Preprocessing/"))
 # import all necessary packages
 from my_imports import *
 from model import model_definition.pretrained_model
-from Preprocessing import Manual_augmentation.ImageAugmentor
-
+from Preprocessing import Manual_augmentation.ImageAugmentor  ##Different augmentation
+from Preprocessing import Random_augmentation.ImageAugmentor
+from Preprocessing import brightness_blurred_augmentation.ImageAugmentor
 
 # Load the parameters from the JSON file
 with open('config.json', 'r') as f:

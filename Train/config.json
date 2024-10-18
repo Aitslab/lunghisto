@@ -5,6 +5,8 @@
     "fold_weights": {"1st_part":"1st_part_best_weights.01-0.89.hdf5", "2nd_part":"2nd_part_best_weights.02-1.19.hdf5", "3rd_part":"3rd_part_best_weights.03-0.98.hdf5"},
     "validation_DATA_PATH ": "/val_total_score_cropped/validation/",
     "validation_Label_PATH ": "_val_total_score/validation/validation_newlabels.txt",
+	"train_DATA_PATH ": "/val_total_score_cropped/train/",
+    "train_Label_PATH ": "_val_total_score/train/train_newlabels.txt",
     "out_file"              : "_validation_predicted_newlabels.txt",
     "input_shape"           : (224,224,3),
     "num_classes"           : 3,
