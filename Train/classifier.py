@@ -63,7 +63,6 @@ class PerformanceVisualizationCallback(Callback):
 
 
 
-
 # Load the parameters from the JSON file
 with open('config.json', 'r') as f:
     config = json.load(f)
