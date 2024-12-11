@@ -62,15 +62,7 @@ class PerformanceVisualizationCallback(Callback):
         fig.savefig(os.path.join(self.image_dir, f'confusion_matrix_epoch_{epoch}'))
 
 
-<<<<<<< HEAD
 
-
-<<<<<<< HEAD
-
-=======
->>>>>>> fc499ae1309c49b1f211d77baf1919eab686d112
-=======
->>>>>>> 1c13aa558e0e9b631d78521641cf11b8be55d7fd
 # Load the parameters from the JSON file
 with open('config.json', 'r') as f:
     config = json.load(f)
